@@ -1,21 +1,6 @@
-@font-face{
-  font-family: Museo Sans300;
-  src: url("/fonts/Museo 300.otf");
-}
-
-@font-face{
-  font-family: Museo Sans500;
-  src: url("/fonts/Museo 500.otf");
-}
-
-@font-face{
-  font-family: Museo Sans700;
-  src: url("/fonts/Museo 700.otf");
-}
-
-@font-face{
-  font-family: Museo Sans900;
-  src: url("/fonts/Museo 900.otf");
+body{
+  font-family: museo-sans, sans-serif;
+  font-style: normal;
 }
 
 .container-fluid{
@@ -27,7 +12,7 @@
 
 .navbar{
   padding: 0;
-  padding-top: 1%;
+  padding-top: 2%;
 }
 
 .navbar-brand{
@@ -36,19 +21,34 @@
   margin-left: 1%;
 }
 
+.navbar-toggler{
+  margin-right: 3%;
+}
+
+.navbar-dark .navbar-toggler{
+  border-color: white;
+}
+
 .nav-item{
   padding-right: 5px;
   padding-left: 5px;
   letter-spacing: 3px;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .nav-link{
   color: white;
 }
 
+.nav-link:active{
+  border-top: 5px solid #00b8e6;
+}
+
 .navTitle{
   font-size: 20px;
   font-weight: bold;
+  font-weight: 900;
   margin-bottom: 0;
   color: white;
 }
@@ -56,8 +56,8 @@
 .navDescription{
   margin-top: 3px;
   font-size: 14px;
+  font-weight: 500;
   color: white;
-  margin-right: 35%;
 }
 
 button{
@@ -69,6 +69,9 @@ footer{
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 2%;
+  color: #6E6A67;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .footerBrandLogo{
