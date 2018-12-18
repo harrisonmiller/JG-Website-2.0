@@ -25,10 +25,13 @@
       <div class = "jumbotron jumbotron-fluid">
 
           <!-- NAV BAR -->
-          <nav class="navbar navbar-dark navbar-expand-md">
+          <nav class="navbar navbar-dark navbar-expand-lg">
 
             <!-- BRAND LOGO -->
-            <a class="navbar-brand" href="index.html"><img src = "/images/Group 1.png"></a>
+            <a class="navbar-brand" href="index.html">
+              <img class = "d-none d-sm-block" src = "/images/Group 1.png">
+              <img class = "d-sm-none xsBrandImg" src = "/images/Group 1 Cropped.png">
+            </a>
 
             <!-- TOGGLE BUTTON -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -102,7 +105,7 @@
             </div>
 
             <div class = "col-sm-4 mainContentLinks">
-              <img class = "img-fluid" src = "/images/Image 3.png">
+              <img class = "img-fluid" id = "extraPaddingBuffer" src = "/images/Image 3.png">
               <h3>Testing</h3>
               <p>Need help with quality assurance?</p>
               <button class = "mainContentButton">Learn More</button>
@@ -163,40 +166,9 @@
           <p>Interested in working with us?</p>
           <button>Get In Touch</button>
 
-          <div class = row>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 6.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 5.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 9.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 13.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 10.png">
-              </div>
-          </div>
-
-          <div class = row>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 8.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 14.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 12.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 7.png">
-              </div>
-              <div class = "col-sm-2">
-                  <img class = "img-fluid mx-auto d-block" src = "/images/Image 11.png">
-              </div>
+          <div class = clientImgWrapper>
+            <img class = "img-fluid d-none d-sm-block clientImg" src = "/images/banner-clientgarden.png">
+            <img class = "img-fluid d-sm-none clientImg" src = "/images/banner-clientgarden-sm.png">
           </div>
 
       </div>
@@ -206,7 +178,9 @@
       <footer>
 
           <div class = "footerBrandLogo">
-            <img src = "/images/footer_logo.png">
+            <hr class = "d-none d-sm-block leftHR">
+            <img class = "img-fluid" src = "/images/Logo_mark_1_.png">
+            <hr class = "d-none d-sm-block rightHR">
           </div>
 
           <center class = "footerText">
@@ -220,7 +194,9 @@
           </center>
 
           <div class = "footerIcons">
-
+            <a href = "https://www.facebook.com/jahnelgroup/"><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href = "https://twitter.com/JahnelGroup"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href = "https://www.linkedin.com/company/jahnelgroup"><i class="fa fa-linkedin fa-2x"></i></a>
           </div>
 
       </footer>
