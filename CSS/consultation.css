@@ -1,1 +1,148 @@
+.jumbotron{
+  margin: 0;
+  margin-bottom: -7%;
+  padding: 0;
+  background-image: url("/images/Group 88.png");
+  background-size: cover;
+  background-color: #000033;
+}
 
+h1{
+  font-size: 42px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 15%;
+  letter-spacing: 6px;
+}
+
+.mainContent{
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 4%;
+  padding-top: 2%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.mainContent p{
+  font-weight: 300;
+  font-size: 32px;
+  color: #444C44;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.mainContentNav{
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
+.mainContentNav li{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+.mainContentNav p{
+  font-weight: 900;
+  font-size: 24px;
+  color: #444C44;
+  text-align: center;
+}
+
+.softwareConsultation{
+  width: 70%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.softwareConsultation h2{
+  color: #444C44;
+  font-weight: 900;
+  font-size: 40px;
+  display: inline;
+  margin-left: 30px;
+}
+
+.darrinWithClient{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: -5%;
+}
+
+.consultationPitch{
+  z-index: 2;
+  position: relative;
+  width: 65%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.vertLine{
+  width: 50%;
+  height: 100px;
+  border-right: 1px solid #EE5544;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.consultationPitch h3{
+  color: #444C44;
+  font-weight: 900;
+  font-size: 28px;
+  margin-left: 8%;
+}
+
+.consultationPitch p{
+  font-size: 28px;
+}
+
+.businessDevTeam{
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.businessDevTeam p{
+  font-size: 22px;
+}
+
+.consultationPitch h4{
+  font-weight: 500;
+  font-size: 22px;
+  text-shadow: 1px black;
+  color: #444C44;
+  text-align: center;
+}
+
+.consultationPitch button{
+  background-color: #EE5544;
+  border-color: #EE5544;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  display: block;
+}
