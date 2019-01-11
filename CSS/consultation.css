@@ -1,6 +1,6 @@
 .jumbotron{
   margin: 0;
-  margin-bottom: -7%;
+  margin-bottom: -5%;
   padding: 0;
   background-image: url("/images/Group 88.png");
   background-size: cover;
@@ -40,6 +40,7 @@ h1{
   list-style-type: none;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 40px;
   padding: 0;
 }
 
@@ -52,7 +53,7 @@ h1{
 
 .mainContentNav p{
   font-weight: 900;
-  font-size: 24px;
+  font-size: 20px;
   color: #444C44;
   text-align: center;
 }
@@ -128,6 +129,7 @@ h1{
   text-shadow: 1px black;
   color: #444C44;
   text-align: center;
+  margin-top: 75px;
 }
 
 .consultationPitch button{
