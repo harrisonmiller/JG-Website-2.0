@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/bjq6elg.css">
   <link rel="stylesheet" href="/CSS/global.css">
-  <link rel="stylesheet" href="/CSS/consultation.css">
+  <link rel="stylesheet" href="/CSS/services.css">
   <script src="/JS/index.js"></script>
 </head>
 
@@ -44,7 +44,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link" href="/HTML/consultation.html">
-                    <p class = "navTitle">OUR SERVICES</p>
+                    <p class = "navTitle" id = "activeLink">OUR SERVICES</p>
                     <p class = "navDescription">What we can do for you and your projects.</p>
                     </a>
                 </li>
@@ -84,13 +84,13 @@
     <div class = "mainContent">
         <ul class = "mainContentNav">
             <li>
-                <a class = "mainContentLink" href = "/HTML/consultation.html"><p>CONSULTATION</p></a>
+                <a class = "mainContentLink" href = "/HTML/consultation.html"><p id = "activeLink">CONSULTATION</p></a>
             </li>
             <li>
                 <a class = "mainContentLink" href = "/HTML/development.html"><p>DEVELOPMENT</p></a>
             </li>
             <li>
-                <a class = "mainContentLink" href = "#"><p>TESTING</p></a>
+                <a class = "mainContentLink" href = "/HTML/testing.html"><p>TESTING</p></a>
             </li>
         </ul>
         <p>We’re natural born problem solvers. Whether it’s technical, strategic, or managerial, we’re confident that we can point you in the right direction and help you set a plan for success.</p>
@@ -120,18 +120,23 @@
 
             <h3>Meet our business development team</h3>
             <p>When we kick off on an engagement, you'll get these talented folks walking you through our methodology, every step of the way.</p>
-            <div class = businessDevTeam>
-                <img class = "img-fluid" src = "/images/djahnel-01.png">
-                <p>Darrin Jahnel</p>
-                <img class = "img-fluid" src = "/images/jzweigenthal-01.png">
-                <p>Jessie Zweigenthal</p>
-            </div>
-            <div class = businessDevTeam>
-              <img class = "img-fluid" src = "/images/jkeller-01.png">
-              <p>Jon Keller</p>
-              <img class = "img-fluid" src = "/images/tmercadante-01.png">
-              <p>Tony Mercadante</p>
-            </div>
+            <table class = businessDevTeam>
+                <tbody>
+                    <tr>
+                        <td><img class = "img-fluid" src = "/images/djahnel-01.png"></td>
+                        <td><p>Darrin Jahnel</p></td>
+                        <td><img class = "img-fluid" src = "/images/jzweigenthal-01.png"></td>
+                        <td><p>Jessie Zweigenthal</p></td>
+                    </tr>
+
+                    <tr>
+                        <td><img class = "img-fluid" src = "/images/jkeller-01.png"></td>
+                        <td><p>Jon Keller</p></td>
+                        <td><img class = "img-fluid" src = "/images/tmercadante-01.png"></td>
+                        <td><p>Tony Mercadante</p></td>
+                    </tr>
+                </tbody>
+            </table>
 
             <h4>Ready to get started?</h4>
             <button>Contact Us</button>
