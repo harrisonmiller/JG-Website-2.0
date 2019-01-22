@@ -50,6 +50,7 @@ body{
 #activeLink{
   border-top: 5px solid #00b8e6;
   padding-top: 10px;
+  display: inline;
 }
 
 .navTitle{
@@ -66,7 +67,7 @@ body{
   font-size: 14px;
   font-weight: 500;
   color: white;
-  width: 70%;
+  width: 90%;
 }
 
 button{

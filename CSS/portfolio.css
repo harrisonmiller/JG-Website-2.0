@@ -20,9 +20,12 @@ h1{
 }
 
 .projectRow{
-  width: 90%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.projectCol{
   margin-bottom: 100px;
 }
 
@@ -39,9 +42,6 @@ h1{
 .projectInfo{
   background-color: #F1F1F2;
   border-radius: 5px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   height: 100%;
 }
 
@@ -62,7 +62,13 @@ h1{
   margin-right: 8%;
 }
 
-.technologies{
+.techDivWrapper{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 20px;
+}
+
+.techDiv{
   font-weight: 300;
   font-size: 18px;
   border-radius: 19px;
@@ -71,64 +77,58 @@ h1{
   padding-right: 27px;
   padding-top: 6px;
   padding-bottom: 6px;
+  margin: 5px;
+  color: white;
 }
 
-.technologies.Google{
+.techDiv.Google{
   background-color: #AF232D;
-  color: white;
 }
 
-.technologies.BluePrint{
+.techDiv.BluePrint{
   background-color: #005391;
-  color: white;
 }
 
-.technologies.DocTrax{
+.techDiv.DocTrax{
   background-color: #CC5614;
-  color: white;
 }
 
-.technologies.Benetech{
+.techDiv.Benetech{
   background-color: #550D0D;
-  color: white;
 }
 
-.technologies.Selections{
+.techDiv.Selections{
   background-color: #8494A0;
-  color: white;
 }
 
-.technologies.Knowledge{
+.techDiv.Knowledge{
   background-color: #007490;
-  color: white;
 }
 
-.technologies.RPEA{
+.techDiv.RPEA{
   background-color: #333333;
-  color: white;
 }
 
-.technologies.ResearchNow{
+.techDiv.ResearchNow{
   background-color: #227650;
-  color: white;
 }
 
-.technologies.Samson{
+.techDiv.Samson{
   background-color: #13136C;
-  color: white;
 }
 
-.technologies.BeyondPay{
+.techDiv.BeyondPay{
   background-color: #6393B5;
-  color: white;
 }
 
-.technologies.MIT{
+.techDiv.MIT{
   background-color: #C94B42;
-  color: white;
 }
 
-.technologies.MIT2{
+.techDiv.MIT2{
   background-color: #C94B42;
-  color: white;
+}
+
+footer{
+  margin-top: -20px;
 }
