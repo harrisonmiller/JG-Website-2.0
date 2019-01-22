@@ -33,7 +33,7 @@ h1{
 }
 
 .mainContentLink p{
-
+  display: inline-block;
 }
 
 .mainContent p{
@@ -46,17 +46,12 @@ h1{
 
 .mainContentNav{
   list-style-type: none;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 40px;
   padding: 0;
 }
 
 .mainContentNav li{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 33%;
+  text-align: center;
 }
 
 .mainContentNav p{

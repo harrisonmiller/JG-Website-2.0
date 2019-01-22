@@ -1,0 +1,134 @@
+.jumbotron{
+  margin: 0;
+  margin-bottom: -3%;
+  padding: 0;
+  background-image: url("/images/Group 90.png");
+  background-size: cover;
+  background-color: #000033;
+}
+
+h1{
+  font-size: 42px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 15%;
+  letter-spacing: 6px;
+}
+
+.projectRow{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.projectImgWrapper{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.projectImg{
+  margin-top: -17%;
+}
+
+.projectInfo{
+  background-color: #F1F1F2;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.projectInfo h2{
+  color: #000000;
+  font-weight: 900;
+  font-size: 32px;
+  margin-left: 8%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projectInfo p{
+  color: #000000;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.technologies{
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 19px;
+  display: inline-block;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.technologies.Google{
+  background-color: #AF232D;
+  color: white;
+}
+
+.technologies.BluePrint{
+  background-color: #005391;
+  color: white;
+}
+
+.technologies.DocTrax{
+  background-color: #CC5614;
+  color: white;
+}
+
+.technologies.Benetech{
+  background-color: #550D0D;
+  color: white;
+}
+
+.technologies.Selections{
+  background-color: #8494A0;
+  color: white;
+}
+
+.technologies.Knowledge{
+  background-color: #007490;
+  color: white;
+}
+
+.technologies.RPEA{
+  background-color: #333333;
+  color: white;
+}
+
+.technologies.ResearchNow{
+  background-color: #227650;
+  color: white;
+}
+
+.technologies.Samson{
+  background-color: #13136C;
+  color: white;
+}
+
+.technologies.BeyondPay{
+  background-color: #6393B5;
+  color: white;
+}
+
+.technologies.MIT{
+  background-color: #C94B42;
+  color: white;
+}
+
+.technologies.MIT2{
+  background-color: #C94B42;
+  color: white;
+}
