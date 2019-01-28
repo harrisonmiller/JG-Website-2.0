@@ -57,7 +57,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="/HTML/culture.html">
                     <p class = "navTitle">OUR CULTURE</p>
                     <p class = "navDescription">Our team, our space, and our community.</p>
                     </a>
@@ -80,25 +80,19 @@
     </div>
     <!-- END BANNER -->
 
-    <!-- BEGIN MAIN CONTENT -->
-    <div class = "mainContent">
+    <!-- BEGIN MAIN CONTENT DESKTOP -->
+    <div class = "d-none d-md-block mainContent">
 
         <ul class = "mainContentNav">
             <div class = "row">
                 <div class = "col-sm-4">
-                    <li>
-                        <a class = "mainContentLink" href = "/HTML/consultation.html"><p>CONSULTATION</p></a>
-                    </li>
+                    <a class = "mainContentLink" href = "/HTML/consultation.html"><p>CONSULTATION</p></a>
                 </div>
                 <div class = "col-sm-4">
-                    <li>
-                        <a class = "mainContentLink" href = "/HTML/development.html"><p  id = "activeLink">DEVELOPMENT</p></a>
-                    </li>
+                    <a class = "mainContentLink" href = "/HTML/development.html"><p  id = "activeLink">DEVELOPMENT</p></a>
                 </div>
                 <div class = "col-sm-4">
-                    <li>
-                        <a class = "mainContentLink" href = "/HTML/testing.html"><p>TESTING</p></a>
-                    </li>
+                    <a class = "mainContentLink" href = "/HTML/testing.html"><p>TESTING</p></a>
                 </div>
             </div>
         </ul>
@@ -132,14 +126,57 @@
             <p>Is your company using ServiceNow? Let us handle your IT operations management, system admin, and application development needs.</p>
             <p>We have dedicated team of certified system administrators and application developers that can help you streamline processes and work smarter.</p>
             <p>We’re here to help you maximize the value of your ServiceNow experience and investment.</p>
-            <p>Check out our ServiceNow Website</p>
+            <p>Check out our <a href="https://snow.jahnelgroup.com/">ServiceNow Website</a></p>
 
             <h4>Ready to get started?</h4>
             <button>Contact Us</button>
         </div>
 
     </div>
-    <!-- END MAIN CONTENT -->
+    <!-- END MAIN CONTENT DESKTOP -->
+
+    <!-- BEGIN MAIN CONTENT MOBILE -->
+    <div class = "d-block d-md-none mainContentMobile">
+
+        <div class = "softwareConsultationMobile">
+            <img class = "img-fluid" src = "/images/Image 2@2x.png">
+            <h2>Software Development</h2>
+        </div>
+        <p>We live for making great software. Whether you’re looking to scale your existing development team or you want to outsource an entire software project, Jahnel Group is the company for you.</p>
+
+        <img class = "img-fluid darrinWithClientMobile" src = "/images/IMG_1720.png">
+
+        <div class = "consultationPitchMobile">
+            <h3>Team supplementation</h3>
+            <p>If you want to scale your team quickly or add some key resources without increasing your HR burden, we've got you covered.<p>
+            <p>We can set you up with talented developers, BAs, PMs, designers, UXers, and QA professionals who are all enjoyable to work with.  We can either
+            place people directly with you or give you access to remote resources working out of our office.</p>
+
+            <div class = "vertLine"></div>
+
+            <h3>End-to-end software creation</h3>
+            <p>If your business needs great software in order to succeed, but you’re not in the software business, let us take that burden off of you.
+              We will build an entire application, end-to-end, including requirements gathering, design, project management, development, testing, implementation, and support.</p>
+            <p>You can focus on what you’re great at and we’ll focus on making great software for you.</p>
+            <p>Read about some of the Technologies we use.</p>
+
+            <div class = "vertLine"></div>
+
+            <h3>ServiceNow Applications & Service Portal</h3>
+            <p>Is your company using ServiceNow? Let us handle your IT operations management, system admin, and application development needs.</p>
+            <p>We have dedicated team of certified system administrators and application developers that can help you streamline processes and work smarter.</p>
+            <p>We’re here to help you maximize the value of your ServiceNow experience and investment.</p>
+            <p>Check out our <a href="https://snow.jahnelgroup.com/">ServiceNow Website</a></p>
+
+            <h4>Ready to get started?</h4>
+            <button>Contact Us</button>
+
+            <p class = "mobileNavP">Not interested in our development services? How about <a href="/HTML/consultation.html">Software Consultation</a>
+              or <a href="/HTML/testing.html">Software Testing?</a><p>
+        </div>
+
+    </div>
+    <!-- END MAIN CONTENT MOBILE -->
 
     <!-- BEGIN FOOTER -->
     <footer>

@@ -32,7 +32,11 @@ h1{
   margin-bottom: 4%;
   padding-top: 2%;
   background-color: white;
-  border-radius: 4px;
+}
+
+.col-sm-4{
+  text-align: center;
+  padding-right: 0;
 }
 
 .mainContentLink:hover{
@@ -51,14 +55,17 @@ h1{
   margin-left: 8%;
 }
 
-.mainContentNav{
-  list-style-type: none;
-  margin-bottom: 40px;
-  padding: 0;
+.mainContentMobile p{
+  font-weight: 300;
+  font-size: 28px;
+  color: #444C44;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
-.mainContentNav li{
-  text-align: center;
+.mainContentNav{
+  margin-bottom: 40px;
+  padding: 0;
 }
 
 .mainContentNav p{
@@ -66,6 +73,10 @@ h1{
   font-size: 20px;
   color: #444C44;
   text-align: center;
+}
+
+.row.mobile{
+  margin-right: 0px;
 }
 
 .softwareConsultation{
@@ -84,6 +95,23 @@ h1{
   margin-left: 30px;
 }
 
+.softwareConsultationMobile{
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.softwareConsultationMobile h2{
+  color: #444C44;
+  font-weight: 900;
+  font-size: 35px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .darrinWithClient{
   display: block;
   margin-left: auto;
@@ -92,10 +120,24 @@ h1{
   margin-bottom: -5%;
 }
 
+.darrinWithClientMobile{
+  margin-bottom: 0%;
+}
+
 .consultationPitch{
   z-index: 2;
   position: relative;
   width: 75%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.consultationPitchMobile{
+  z-index: 2;
+  position: relative;
+  width: 90%;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -110,7 +152,7 @@ h1{
   margin-bottom: 15px;
 }
 
-.consultationPitch h3{
+h3{
   color: #444C44;
   font-weight: 900;
   font-size: 28px;
@@ -123,6 +165,10 @@ h1{
 
 .businessDevTeam{
   margin-left: 8%;
+}
+
+.businessDevTeam.mobile{
+  margin-left: 0%;
 }
 
 .businessDevTeam td{
@@ -138,7 +184,7 @@ h1{
   margin-right: auto;
 }
 
-.consultationPitch h4{
+h4{
   font-weight: 500;
   font-size: 22px;
   text-shadow: 1px black;
@@ -147,7 +193,7 @@ h1{
   margin-top: 75px;
 }
 
-.consultationPitch button{
+button{
   background-color: #EE5544;
   border-color: #EE5544;
   border-radius: 3px;
@@ -162,4 +208,10 @@ h1{
   margin-right: auto;
   margin-top: 15px;
   display: block;
+}
+
+.mobileNavP{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px !important;
 }
