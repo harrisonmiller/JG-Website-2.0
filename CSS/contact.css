@@ -1,0 +1,70 @@
+.jumbotron{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15%;
+  background-image: url("/images/Hero Background.png");
+  background-size: cover;
+  background-color: #000033;
+}
+
+h1{
+  font-size: 42px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  letter-spacing: 6px;
+}
+
+.mainContent{
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-bottom: 6%;
+  margin-top: -8%;
+  padding-top: 2%;
+  background-color: white;
+  border-radius: 4px;
+}
+
+form{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+form .row{
+  margin-bottom: 3%;
+}
+
+input[type=text]{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  color: rgba(4, 4, 43, .65);
+  width: 100%;
+  font-weight: 500;
+}
+
+.msgBox{
+  height: 100px;
+}
+
+input[type=submit]{
+  border-radius: 3px;
+  border: none;
+  background-color: #009BAD;
+  color: white;
+  font-weight: 500;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+input[type=submit]:hover{
+  cursor: pointer;
+}

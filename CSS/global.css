@@ -53,6 +53,10 @@ body{
   display: inline;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 .navTitle{
   font-size: 20px;
   font-weight: bold;
