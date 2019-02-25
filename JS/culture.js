@@ -11,8 +11,8 @@ $(document).ready(function() {
         template: '<div class="col-lg-6 instaimg">' +
                       '<a href="{{link}}" target="_blank" class = "instaImgLink">' +
                       '<img src="{{image}}" alt="{{caption}}" class="img-fluid instaimgLayerBottom"/>' +
-                      '<div class = "instaimgLayerTop instaimgLayerSlideUp">' +
-                          '<div class = "instaimgText">{{caption}}</div>' +
+                      '<div class = "overlay">' +
+                          '<div class = "caption">{{caption}}</div>' +
                       '</div></a>' +
                   '</div>',
     });
