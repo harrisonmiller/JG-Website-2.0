@@ -106,6 +106,7 @@ h2{
   margin-bottom: -10%;
   z-index: -1;
   position: relative;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, .16);
 }
 
 .fMotionPressSubText{

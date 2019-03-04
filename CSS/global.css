@@ -3,6 +3,10 @@ body{
   font-style: normal;
 }
 
+.jumbotron{
+  box-shadow: 0px 20px 99px rgba(144, 144, 144, .42);
+}
+
 .container-fluid{
   padding-right: 0;
   padding-left: 0;

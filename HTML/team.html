@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/bjq6elg.css">
   <link rel="stylesheet" href="/CSS/global.css">
   <link rel="stylesheet" href="/CSS/team.css">
+  <script src="/JS/team.js"></script>
 </head>
 
 <body>
@@ -79,7 +80,7 @@
     </div>
     <!-- END BANNER -->
 
-    <!-- BEGIN MAIN CONTENT -->
+    <!-- BEGIN MAIN CONTENT DESKTOP -->
     <div class = "mainContent">
 
         <p>The most important asset any organization has are it’s employees. Stick around, get to know us a little. We’re pretty much always in party mode.</p>
@@ -99,18 +100,130 @@
             </div>
         </ul>
 
+        <div class = "partySwitch">
+          <p>Party Mode</p>
+          <label class="switch">
+            <input type="checkbox" id="partyCheckBox" onclick="partyFunction()">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
         <h2>THE EXECUTIVE TEAM</h2>
 
         <div class = "row">
-            <div class = "col-lg-4"><img class = "img-fluid" src = "/images/djahnel-01-square.jpg"></div>
-            <div class = "col-lg-4"><img class = "img-fluid" src = "/images/jjahnel-01.jpg"></div>
-            <div class = "col-lg-4"><img class = "img-fluid" src = "/images/szgaljic-01.jpg"></div>
+            <div class = "col-md-4" id = "execLeft">
+              <img class = "img-fluid exec noParty" src = "/images/djahnel-01-square.jpg">
+              <img class = "img-fluid exec party" src = "/images/djahnel-02.jpg">
+            </div>
+            <div class = "col-md-4">
+              <img class = "img-fluid exec noParty" src = "/images/jjahnel-01.jpg">
+              <img class = "img-fluid exec party" src = "/images/jjahnel-02.jpg">
+            </div>
+            <div class = "col-md-4" id = "execRight">
+              <img class = "img-fluid exec noParty" src = "/images/szgaljic-01.jpg">
+              <img class = "img-fluid exec party" src = "/images/szgaljic-02.jpg">
+            </div>
         </div>
 
-        <img class = "img-fluid" src = "/images/footer_logo.png">
+        <img class = "img-fluid teamJGDivider" src = "/images/footer_logo.png">
+
+        <div class = "row">
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/achunilal-01.jpg">
+              <img class = "img-fluid party" src = "/images/achunilal-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/aconway-01.jpg">
+              <img class = "img-fluid party" src = "/images/aconway-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/aevanciew-01.jpg">
+              <img class = "img-fluid party" src = "/images/aevanciew-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/afurgiuele-01.jpg">
+              <img class = "img-fluid party" src = "/images/afurgiuele-02.jpg">
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/aharing-01.jpg">
+              <img class = "img-fluid party" src = "/images/aharing-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/akroft-01.jpg">
+              <img class = "img-fluid party" src = "/images/akroft-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/anikolis-01.jpg">
+              <img class = "img-fluid party" src = "/images/anikolis-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/apalekar-01.jpg">
+              <img class = "img-fluid party" src = "/images/apalekar-02.jpg">
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/bdudla-01.jpg">
+              <img class = "img-fluid party" src = "/images/bdudla-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/bellsworth-01.jpg">
+              <img class = "img-fluid party" src = "/images/bellsworth-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/cbalzan-01.jpg">
+              <img class = "img-fluid party" src = "/images/cbalzan-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/cportwine-01.jpg">
+              <img class = "img-fluid party" src = "/images/cportwine-02.jpg">
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/dbedian-01.jpg">
+              <img class = "img-fluid party" src = "/images/dbedian-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/dkollar-01.jpg">
+              <img class = "img-fluid party" src = "/images/dkollar-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/dmann-01.jpg">
+              <img class = "img-fluid party" src = "/images/dmann-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/ecoonradt-01.jpg">
+              <img class = "img-fluid party" src = "/images/ecoonradt-02.jpg">
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/eguby-01.jpg">
+              <img class = "img-fluid party" src = "/images/eguby-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/esteere-01.jpg">
+              <img class = "img-fluid party" src = "/images/esteere-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/eguby-01.jpg">
+              <img class = "img-fluid party" src = "/images/eguby-02.jpg">
+            </div>
+            <div class = "col-md-3">
+              <img class = "img-fluid noParty" src = "/images/hcrain-01.jpg">
+              <img class = "img-fluid party" src = "/images/hcrain-02.jpg">
+            </div>
+        </div>
 
     </div>
-    <!-- END MAIN CONTENT -->
+    <!-- END MAIN CONTENT DESKTOP -->
 
     <!-- BEGIN FOOTER -->
     <footer>
