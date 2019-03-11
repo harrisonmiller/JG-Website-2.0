@@ -96,20 +96,17 @@ h1{
 }
 
 .softwareConsultationMobile{
-  width: 90%;
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
 .softwareConsultationMobile h2{
   color: #444C44;
   font-weight: 900;
-  font-size: 35px;
+  font-size: 30px;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .darrinWithClient{
@@ -138,7 +135,6 @@ h1{
 .consultationPitchMobile{
   z-index: 2;
   position: relative;
-  width: 90%;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
