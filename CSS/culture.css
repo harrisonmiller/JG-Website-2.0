@@ -11,12 +11,12 @@ h1{
   font-size: 42px;
   font-weight: 900;
   color: white;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   padding-top: 6%;
   padding-bottom: 15%;
   letter-spacing: 6px;
+  width: 40%;
 }
 
 ul{
