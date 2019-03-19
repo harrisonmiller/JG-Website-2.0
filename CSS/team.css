@@ -5,7 +5,7 @@
   background-image: url("/images/culture hero.png");
   background-size: cover;
   background-color: #000033;
-  background-position: center; 
+  background-position: center;
 }
 
 h1{
@@ -179,13 +179,5 @@ h2{
 }
 
 .party{
-  display: none;
-}
-
-#noParty{
-  visibility: visible;
-}
-
-#party{
   display: none;
 }
