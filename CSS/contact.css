@@ -1,7 +1,6 @@
 .jumbotron{
   margin: 0;
   padding: 0;
-  padding-bottom: 15%;
   background-image: url("/images/Hero Background.png");
   background-size: cover;
   background-color: #000033;
@@ -15,7 +14,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
   padding-top: 6%;
-  padding-bottom: 2%;
+  padding-bottom: 15%;
   letter-spacing: 6px;
   width: 60%;
 }
@@ -70,6 +69,7 @@ input[type=submit]{
   padding-bottom: 13px;
   padding-left: 90px;
   padding-right: 90px;
+  margin-bottom: 10px;
 }
 
 input[type=submit]:hover{

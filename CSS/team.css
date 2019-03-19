@@ -1,6 +1,5 @@
 .jumbotron{
   margin: 0;
-  margin-bottom: -8%;
   padding: 0;
   background-image: url("/images/culture hero.png");
   background-size: cover;
@@ -28,6 +27,7 @@ ul{
   margin-left: 16%;
   margin-right: 16%;
   margin-bottom: 4%;
+  margin-top: -8%;
   padding-top: 2%;
   background-color: white;
   border-radius: 4px;
@@ -40,6 +40,25 @@ ul{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.mainContentMobile p{
+  font-weight: 300;
+  font-size: 24px;
+  color: #444C44;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgWrapperMobile{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainContentMobile img{
+  margin-bottom: 20px;
 }
 
 .mainContentNav{
@@ -71,6 +90,10 @@ ul{
   margin-left: 88%;
 }
 
+.partySwitchMobile{
+  margin-left: 70%;
+}
+
 .partySwitch p{
   font-size: 16px;
   font-weight: 500;
@@ -78,6 +101,10 @@ ul{
   margin-right: auto;
   margin-bottom: 15px;
   color: #444C44;
+}
+
+.partySwitchMobile p{
+  font-size: 18px;
 }
 
 .switch {
