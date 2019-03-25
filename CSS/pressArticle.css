@@ -1,0 +1,93 @@
+.jumbotron{
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/Group 88.png"); /* ARTICLE IMAGE GOES HERE */
+  background-size: cover;
+  background-color: #000033;
+}
+
+.fillerDiv{
+  height: 500px;
+}
+
+.mainContent{
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 4%;
+  margin-top: -10%;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.mainContentMobile{
+  margin-bottom: 4%;
+  margin-top: -15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.underline{
+  border-bottom: 1px solid red;
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: #444C44;
+}
+
+.title{
+  padding-top: 10px;
+  font-weight: 900;
+  color: #444C44;
+}
+
+.titleMobile{
+  padding-top: 10px;
+  font-weight: 900;
+  color: #444C44;
+  font-size: 22px;
+}
+
+.author{
+  padding-left: 45px;
+  font-size: 14px;
+  color: #444C44;
+}
+
+.authorMobile{
+  padding-left: 45px;
+  font-size: 14px;
+  color: #444C44;
+}
+
+.vertLine{
+  width: 50%;
+  border-right: solid 1px red;
+  height: 50px;
+}
+
+.content{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #444C44;
+}
+
+#indent{
+  text-indent: 45px;
+}
+
+#maxWidth{
+  max-width: 100%;
+}
+
+.articleNav{
+  text-align: center;
+}
+
+.articleNav a{
+  color: red;
+}
