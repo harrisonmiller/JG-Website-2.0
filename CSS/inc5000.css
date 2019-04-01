@@ -8,6 +8,13 @@
 
 .fillerDiv{
   height: 500px;
+  text-align: center;
+}
+
+.fillerDiv img{
+  border-radius: 145px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .mainContent{
@@ -74,6 +81,12 @@
   padding-bottom: 10px;
   font-size: 18px;
   color: #444C44;
+  text-align: center;
+}
+
+.content img{
+  max-width: 600px;
+  max-height: 750px;
 }
 
 #indent{
