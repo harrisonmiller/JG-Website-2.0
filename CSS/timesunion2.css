@@ -1,7 +1,7 @@
 .jumbotron{
   margin: 0;
   padding: 0;
-  background-image: url("/images/press-picture-trio.jpg"); /* ARTICLE IMAGE GOES HERE */
+  background-image: url("../images/press-picture-trio.jpg"); /* ARTICLE IMAGE GOES HERE */
   background-size: cover;
   background-color: #000033;
 }

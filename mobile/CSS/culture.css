@@ -1,7 +1,7 @@
 .jumbotron{
   margin: 0;
   padding: 0;
-  background-image: url("/images/culture hero.png");
+  background-image: url("../images/culture hero.png");
   background-size: cover;
   background-color: #000033;
 }
