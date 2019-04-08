@@ -3,6 +3,10 @@ body{
   font-style: normal;
 }
 
+.row{
+  max-width: 100%;
+}
+
 .jumbotron{
   box-shadow: 0px 20px 99px rgba(144, 144, 144, .42);
   background-position: center;
