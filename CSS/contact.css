@@ -64,14 +64,18 @@ input[type=submit]{
   background-color: #009BAD;
   color: white;
   font-weight: 500;
-  float: right;
   padding-top: 13px;
   padding-bottom: 13px;
   padding-left: 90px;
   padding-right: 90px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 input[type=submit]:hover{
   cursor: pointer;
+}
+
+.submitWrapper{
+  text-align: center;
 }

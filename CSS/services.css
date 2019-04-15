@@ -49,7 +49,7 @@ h1{
 
 .mainContent p{
   font-weight: 300;
-  font-size: 32px;
+  font-size: 16px;
   color: #444C44;
   margin-right: 8%;
   margin-left: 8%;
@@ -57,7 +57,7 @@ h1{
 
 .mainContentMobile p{
   font-weight: 300;
-  font-size: 28px;
+  font-size: 16px;
   color: #444C44;
   margin-right: 8%;
   margin-left: 8%;
@@ -90,7 +90,7 @@ h1{
 .softwareConsultation h2{
   color: #444C44;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 26px;
   display: inline;
   margin-left: 30px;
 }
@@ -103,7 +103,7 @@ h1{
 .softwareConsultationMobile h2{
   color: #444C44;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 26px;
   display: inline-block;
   margin-left: 8%;
   margin-right: 8%;
@@ -152,20 +152,12 @@ h1{
 h3{
   color: #444C44;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 26px;
   margin-left: 8%;
-}
-
-.consultationPitch p{
-  font-size: 28px;
 }
 
 .businessDevTeam{
   margin-left: 8%;
-}
-
-.businessDevTeam.mobile{
-  margin-left: 0%;
 }
 
 .businessDevTeam td{

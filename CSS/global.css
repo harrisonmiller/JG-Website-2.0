@@ -63,6 +63,14 @@ body{
   display: inline;
 }
 
+.overlapCard{
+  height: 100%;
+}
+
+.overlapCard img{
+  width: 100%;
+}
+
 a:hover{
   text-decoration: none;
 }

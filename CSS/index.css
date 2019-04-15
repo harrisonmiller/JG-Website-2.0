@@ -74,10 +74,16 @@ h2{
   margin-bottom: auto;
 }
 
+.mainContentLinksRow{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .mainContentLinks{
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 10px;
 }
 
 .mainContentLinks img{
@@ -104,11 +110,12 @@ h2{
 }
 
 .fMotionPress{
-
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.fMotionPress .col-sm-6{
-  padding: 10px;
+.fMotionPress .col-md-4{
+
 }
 
 .fMotionPress a{
