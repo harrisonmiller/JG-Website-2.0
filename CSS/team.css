@@ -179,6 +179,14 @@ h2{
   margin-bottom: 25px;
 }
 
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.teamRow{
+}
+
 .teamJGDivider{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -187,6 +195,22 @@ h2{
   display: block;
   width: 70%;
   height: auto;
+}
+
+.caption {
+  position: relative;
+  margin-top: -24px;
+  background-color: rgba(18,17,20, .47);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.caption h2{
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
 }
 
 #execLeft{
@@ -201,10 +225,41 @@ h2{
   padding: 9px;
 }
 
-.noParty{
-  display: inline-block;
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
 }
 
-.party{
-  display: none;
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform .8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);
 }

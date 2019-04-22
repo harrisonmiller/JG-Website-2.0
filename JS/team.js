@@ -20,11 +20,15 @@ function partyFunction(){
    var party = document.getElementById("partyCheckBox").checked;
    for(var i = 0; i < partyDivs.length; i++){
      if(party){
-       partyDivs[i].style.display = "inline-block";
-       noPartyDivs[i].style.display = "none";
+       partyDivs[i].classList.add("flip-card-front");
+       partyDivs[i].classList.remove("flip-card-back");
+       noPartyDivs[i].classList.add("flip-card-back");
+       noPartyDivs[i].classList.remove("flip-card-front");
      } else{
-       partyDivs[i].style.display = "none";
-       noPartyDivs[i].style.display = "inline-block";
+       partyDivs[i].classList.add("flip-card-back");
+       partyDivs[i].classList.remove("flip-card-front");
+       noPartyDivs[i].classList.add("flip-card-front");
+       noPartyDivs[i].classList.remove("flip-card-back");
      }
    }
 }
