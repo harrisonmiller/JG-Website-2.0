@@ -184,9 +184,6 @@ h2{
   margin-left: 0;
 }
 
-.teamRow{
-}
-
 .teamJGDivider{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -250,7 +247,6 @@ h2{
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
-  height: 100%;
   backface-visibility: hidden;
 }
 

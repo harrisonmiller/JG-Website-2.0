@@ -12,23 +12,24 @@ $(document).ready(function() {
     }
   });
 
+  $('.execCard').height($('.execCard').find('img').height());
+  $('.teamCard').height($('.teamCard').find('img').height());
+  $(window).resize(function() {
+    $('.execCard').height($('.execCard').find('img').height());
+    $('.teamCard').height($('.teamCard').find('img').height());
+  });
+
 });
 
 function partyFunction(){
    var partyDivs = document.getElementsByClassName("party");
-   var noPartyDivs = document.getElementsByClassName("noParty");
-   var party = document.getElementById("partyCheckBox").checked;
    for(var i = 0; i < partyDivs.length; i++){
-     if(party){
-       partyDivs[i].classList.add("flip-card-front");
-       partyDivs[i].classList.remove("flip-card-back");
-       noPartyDivs[i].classList.add("flip-card-back");
-       noPartyDivs[i].classList.remove("flip-card-front");
-     } else{
-       partyDivs[i].classList.add("flip-card-back");
-       partyDivs[i].classList.remove("flip-card-front");
-       noPartyDivs[i].classList.add("flip-card-front");
-       noPartyDivs[i].classList.remove("flip-card-back");
-     }
+       var front = $('#imgFront'+i).attr('src');
+       $('#imgFront'+i).attr('src', $('#imgBack'+i).attr('src'));
+       $('#imgBack'+i).attr('src', front);
+
+       var captionFront = $('#front'+i).text();
+       $('#front'+i).text($('#back'+i).text());
+       $('#back'+i).text(captionFront);
    }
 }
