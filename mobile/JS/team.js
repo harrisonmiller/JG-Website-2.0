@@ -12,19 +12,28 @@ $(document).ready(function() {
     }
   });
 
+  $('.execCard').height($('.execCard').find('img').height());
+  $('.teamCard').height($('.teamCard').find('img').height());
+  $(window).resize(function() {
+    $('.execCard').height($('.execCard').find('img').height());
+    $('.teamCard').height($('.teamCard').find('img').height());
+  });
+
+  $('.flip-card').onclick(function(){
+    $('.flip-card').hover();
+  });
+
 });
 
 function partyFunction(){
-   var partyDivs = document.getElementsByClassName("party");
-   var noPartyDivs = document.getElementsByClassName("noParty");
-   var party = document.getElementById("partyCheckBox").checked;
-   for(var i = 0; i < partyDivs.length; i++){
-     if(party){
-       partyDivs[i].style.display = "inline-block";
-       noPartyDivs[i].style.display = "none";
-     } else{
-       partyDivs[i].style.display = "none";
-       noPartyDivs[i].style.display = "inline-block";
-     }
-   }
+  var partyDivs = document.getElementsByClassName("party");
+  for(var i = 0; i < partyDivs.length; i++){
+      var front = $('#imgFront'+i).attr('src');
+      $('#imgFront'+i).attr('src', $('#imgBack'+i).attr('src'));
+      $('#imgBack'+i).attr('src', front);
+
+      var captionFront = $('#front'+i).text();
+      $('#front'+i).text($('#back'+i).text());
+      $('#back'+i).text(captionFront);
+  }
 }
